@@ -5,5 +5,4 @@
 - **Code/** - Java programs and practice
 - **Notes/** - Session-wise notes
 
-## Progress
-Sessions completed: 0
+
