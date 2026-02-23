@@ -111,3 +111,8 @@ int 2fast; // starts with digit
 int my-var; // hyphen not allowed
 int class; // reserved keyword
 ```
+---
+## Typecasting
+- Assigning value of one primitive data type to another
+- widening casting : done automatically
+- shortening: done manually (risk: loss of data)
