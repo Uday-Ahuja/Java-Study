@@ -1,3 +1,9 @@
+/*
+1. A Hospital Management System needs to manage doctors and patients. Each doctor has doctorId, name, and specialization. Each patient has patientId, name, and disease. Design appropriate Java classes and write a program to:
+●	Create objects for doctors and patients
+●	Display their details using object-oriented principles
+
+*/
 import java.util.Scanner;
 
 class doctor {
