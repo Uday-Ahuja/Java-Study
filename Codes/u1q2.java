@@ -1,3 +1,11 @@
+/*
+2. A Bank Account system stores sensitive information such as accountNumber and balance.
+Unauthorized access to balance must be prevented. Write a Java program using encapsulation where:
+●	Data members are private
+●	Balance can be accessed and updated only using public methods
+●	Demonstrate deposit and withdrawal operations
+
+*/
 class BankAccount {
     // Private data members - encapsulation
     private String accountNumber;

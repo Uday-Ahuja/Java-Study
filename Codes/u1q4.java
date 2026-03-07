@@ -1,3 +1,10 @@
+/*
+4. A Vehicle Rental System manages different types of vehicles such as Car and Bike.
+All vehicles have vehicleNumber and rentPerDay. Write a Java program using inheritance where:
+●	Vehicle is a base class
+●	Car and Bike are derived classes
+●	Rent is calculated and displayed for each type
+*/
 class Vehicle {
     String vehicleNumber;
     int rentPerDay;

@@ -1,4 +1,10 @@
-import java.util.*;
+/*
+5. A Shape Drawing Application calculates area for different shapes. Write a Java program where:
+●	A base class Shape contains a method calculateArea()
+●	Derived classes Circle and Rectangle override this method
+●	Polymorphism is demonstrated using a base-class reference
+*/
+import java.util.Scanner;
 
 class Shape{
     void calculateArea(){}
@@ -29,16 +35,16 @@ class Rectangle extends Shape{
 
 public class u1q5{
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+        Scanner scr=new Scanner(System.in);
 
         System.out.print("Enter radius: ");
-        float r=sc.nextFloat();
+        float r=scr.nextFloat();
 
         System.out.print("Enter length: ");
-        float l=sc.nextFloat();
+        float l=scr.nextFloat();
 
         System.out.print("Enter breadth: ");
-        float b=sc.nextFloat();
+        float b=scr.nextFloat();
 
         Shape s;
 
@@ -47,5 +53,6 @@ public class u1q5{
 
         s=new Rectangle(l,b);
         s.calculateArea();
+        scr.close();
     }
 }

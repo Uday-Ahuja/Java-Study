@@ -1,3 +1,10 @@
+/*
+3. An Employee Payroll System needs to create employee records either with default values or with user-provided values. Write a Java program that:
+●	Defines a class Employee with default and parameterized constructors
+●	Initializes employee details using both constructors
+●	Displays employee information
+
+*/
 import java.util.Scanner;
 class Employee
 {
